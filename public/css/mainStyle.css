@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+p {
+  padding: 20px;
+  font-size: 1.4em;
+  letter-spacing: 3px;
+}
+h1 {
+  padding: 0px auto;
+  font: 1.5em;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 30px auto;
+}
+input {
+  display: inline-block;
+  height: 50px;
+  width: 230px;
+  margin: auto;
+  font-size: 1.7em;
+  padding-left: 50px;
+}
+#main-container {
+  padding: 10px;
+  padding-top: 50px;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: rgb(219, 214, 214);
+}
+#center-container {
+  height: auto;
+  padding-top: 30px;
+  width: 100%;
+  max-width: 500px;
+  margin: 100px auto;
+  min-height: 300px;
+  background-color: white;
+  box-shadow: 2px 2px 20px rgb(145, 140, 140);
+}
+#submit-btn {
+  height: 50px;
+  width: 100px;
+  padding: 10px auto;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+i {
+  cursor: pointer;
+}
+
+#main-container h2 {
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+#main-container h2 span {
+  color: blue;
+}
+
+#logout-btn {
+  color: white;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  font-size: 1.3rem;
+  background-color: blue;
+  text-decoration: none;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  cursor: pointer;
+}
